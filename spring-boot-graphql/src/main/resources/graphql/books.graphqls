@@ -12,9 +12,9 @@ type Author {
 }
 
 type Query {
-    book(id: ID): Book,
+    book(id: ID!): Book,
     books: [Book]
-    author(author_id: ID): Author
+    author(author_id: ID!): Author
     authors: [Author]
 }
 
