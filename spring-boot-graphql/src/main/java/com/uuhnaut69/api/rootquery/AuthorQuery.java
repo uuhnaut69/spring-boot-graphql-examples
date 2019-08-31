@@ -11,6 +11,10 @@ import com.uuhnaut69.api.services.AuthorService;
 
 import lombok.AllArgsConstructor;
 
+/**
+ * @author uuhnaut
+ *
+ */
 @Component
 @AllArgsConstructor
 public class AuthorQuery implements GraphQLQueryResolver {
